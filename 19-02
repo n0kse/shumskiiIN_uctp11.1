@@ -1,0 +1,29 @@
+@n0kse ➜ ~/ $ mkdir Work
+@n0kse ➜ ~/ $ cd Work
+@n0kse ➜ ~/Work $ mkdir "Лабораторная работа №1"
+@n0kse ➜ ~/Work $  ls
+'Лабораторная работа №1'
+@n0kse ➜ ~/Work $ mkdir "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ ls
+'Лабораторная работа №1'  'Шумский Иван Николаевич'
+@n0kse ➜ ~/Work $ 
+@n0kse ➜ ~/Work $ chmod 772 "Лабораторная работа №1"/
+@n0kse ➜ ~/Work $ chmod 200 "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ touch "Text @1" "Text $2" "Text #3"
+@n0kse ➜ ~/Work $ echo -e "Птица говорун отличается умом и сообразительностью\!\nОтличается умом, отличается сообразительностью..." > "Text @1"
+@n0kse ➜ ~/Work $ cp "Text @1" "Text $2"
+@n0kse ➜ ~/Work $ mv "Text $2" "Лабораторная работа №1"
+@n0kse ➜ ~/Work $ cp "Text @1" "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ gzip -k "Text @1" "Text #3"
+@n0kse ➜ ~/Work $ tar -cvf MyAchiv.tar "Text @1".gz "Text #3".gz
+@n0kse ➜ ~/Work $ head -n 1 "Text @1" >> "Text #3"
+@n0kse ➜ ~/Work $ echo "Будь осторожен! Преступник вооружен!" >> "Text #3"
+@n0kse ➜ ~/Work $ chmod u+x "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ tac "Text @1" > "Шумский Иван Николаевич"/Result_one
+@n0kse ➜ ~/Work $ mv "Шумский Иван Николаевич"/Result_one "Шумский Иван Николаевич"/Result_two
+@n0kse ➜ ~/Work $ chmod u+r "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ find "Шумский Иван Николаевич" -maxdepth 1 -name "T*" -exec cat {} \; > "Лабораторная работа №1"/Result_3
+@n0kse ➜ ~/Work $ uname -a >> "Лабораторная работа №1"/Result_3
+@n0kse ➜ ~/Work $ date >> "Лабораторная работа №1"/Result_3
+
+
