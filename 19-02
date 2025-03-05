@@ -1,0 +1,32 @@
+#1
+@n0kse ➜ ~/ $ mkdir Work
+@n0kse ➜ ~/ $ cd Work
+@n0kse ➜ ~/Work $ mkdir "Лабораторная работа №1"
+@n0kse ➜ ~/Work $  ls
+'Лабораторная работа №1'
+@n0kse ➜ ~/Work $ mkdir "Шумский Иван Николаевич"
+@n0kse ➜ ~/Work $ ls
+'Лабораторная работа №1'  'Шумский Иван Николаевич'
+#2
+@n0kse ➜ ~/Work $ touch "Text @1" "Text $2" "Text #3"
+#3
+@n0kse ➜ ~/Work $ echo -e "Птица говорун отличается умом и сообразительностью\!\nОтличается умом, отличается сообразительностью..." > "Text @1"
+#4
+@n0kse ➜ ~/Work $ cp "Text @1" "Text $2"
+#5
+@n0kse ➜ ~/Work $ mv "Text $2" "Лабораторная работа №1"
+@n0kse ➜ ~/Work $ cp "Text @1" "Шумский Иван Николаевич"
+#6
+@n0kse ➜ ~/Work $ head -n 1 "Text @1" >> "Text #3"
+@n0kse ➜ ~/Work $ echo "Будь осторожен! Преступник вооружен!" >> "Text #3"
+#7
+@n0kse ➜ ~/Work $ tac "Text @1" > "Шумский Иван Николаевич"/Result_one
+#8
+@n0kse ➜ ~/Work $ mv "Шумский Иван Николаевич"/Result_one "Шумский Иван Николаевич"/Result_two
+#9
+@n0kse ➜ ~/Work $ find "Шумский Иван Николаевич" -maxdepth 1 -name "T*" -exec cat {} \; > "Лабораторная работа №1"/Result_3
+#10
+@n0kse ➜ ~/Work $ uname -a >> "Лабораторная работа №1"/Result_3
+@n0kse ➜ ~/Work $ date >> "Лабораторная работа №1"/Result_3
+
+
